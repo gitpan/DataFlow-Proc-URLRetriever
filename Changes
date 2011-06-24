@@ -1,6 +1,14 @@
 Revision History for DataFlow-Proc-URLRetriever
 ===============================================
 
+1.111751
+--------
+
+commit 003741ab213c385aa5b8f73494c3f8e5219eb64f
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    removed extraneous HTTP Client code, using LWP::UserAgent now
+
 ===================================
 End of changes in the last 365 days
 ===================================

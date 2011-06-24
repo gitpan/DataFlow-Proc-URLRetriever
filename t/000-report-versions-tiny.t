@@ -53,13 +53,10 @@ eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
-eval { $v .= pmver('LWP::Curl','0.08') };
+eval { $v .= pmver('LWP::UserAgent','any version') };
 eval { $v .= pmver('Moose','any version') };
-eval { $v .= pmver('Moose::Role','any version') };
-eval { $v .= pmver('MooseX::Traits','any version') };
 eval { $v .= pmver('Test::More','0.88') };
 eval { $v .= pmver('Test::UseAllModules','any version') };
-eval { $v .= pmver('WWW::Mechanize','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
 
 

@@ -28,14 +28,11 @@ my %WriteMakefileArgs = (
   'NAME' => 'DataFlow::Proc::URLRetriever',
   'PREREQ_PM' => {
     'DataFlow::Proc' => '0',
-    'LWP::Curl' => '0.08',
+    'LWP::UserAgent' => '0',
     'Moose' => '0',
-    'Moose::Role' => '0',
-    'MooseX::Traits' => '0',
-    'WWW::Mechanize' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111750',
+  'VERSION' => '1.111751',
   'test' => {
     'TESTS' => 't/*.t'
   }
