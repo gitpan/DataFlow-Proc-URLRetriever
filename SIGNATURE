@@ -1,0 +1,68 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 33c308d1852167d685764424c9989ef36c5e55e9 Changes
+SHA1 8f6e3d9f3d90736e944133096ac41b687115be6b INSTALL
+SHA1 06abad21694ddb03c0fd03ba52d6d652ca43856e LICENSE
+SHA1 a67272e1e82458d44e2922494f8dcb0ee9c546a8 MANIFEST
+SHA1 3024be59e2a6a7a3a7ff67b82fccf7761c71eee8 META.json
+SHA1 1de7b274dfb1e2b29fcaa559fc5928ce1cefc5c5 META.yml
+SHA1 363d91a6a1363ba5c8607dce070fb17fe5af619c Makefile.PL
+SHA1 e92f6be4684317851a5d8c4c7e3cfaf88419868d README
+SHA1 a26509e50688c7145c42a5a7b1d1e74f84aa0ae9 dist.ini
+SHA1 bd4070668ca8c955da3902e53b3e8caa13c0a7e9 lib/DataFlow/Proc/URLRetriever.pm
+SHA1 cdfc0aaf18842bc64c9a19a3f8ed17776fb8a99f lib/DataFlow/Util/HTTPGet.pm
+SHA1 a10021d85ecd0edb764aa269ae8df5b76703505c lib/DataFlow/Util/HTTPGet/Curl.pm
+SHA1 5246c6f1c50673694e96dc5bd7e70c364ac49141 lib/DataFlow/Util/HTTPGet/Mechanize.pm
+SHA1 ca41ffd5806caaf9da5dceea1320ae662780e9fc t/00-compile.t
+SHA1 9675e47749091f26cecf907ec018361f5e6ef10a t/00-load.t
+SHA1 9ae0743ca61389a48110446ebc973874bdb7930f t/000-report-versions-tiny.t
+SHA1 904c50bba4595d196cc61d8d4e5a6b5d89c00d03 t/11-get.t
+SHA1 52eae88978be72ce58d839beee7ac416af3bac53 t/12-get-curl.t
+SHA1 749488569301d30c0eeada7159d05cb9560986ca t/12-get-mechanize.t
+SHA1 77e4db63b00841c632675b1648779eae01e43fde t/62-urlretriever.t
+SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
+SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
+SHA1 bf8570ef6888d79ca6a0c9e21b206b904b0775e2 t/release-distmeta.t
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
+SHA1 6bf1766bfb8d47dccad1fc80c6ea867a3dd7ad1f t/release-meta-json.t
+SHA1 54ed25287b7e1c9ff328eaf126d438438c8a1d48 t/release-minimum-version.t
+SHA1 8556b1e3dda0d4c71ce3ab34261c4f80a585e56c t/release-mojibake.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
+SHA1 4f2933df3566db6f337817aa885889deb213960b t/release-pod-linkcheck.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+SHA1 3bb783b8a31b5eaff916bcb8bf7b348ee340ecb5 t/release-portability.t
+SHA1 13308c6d118988d59e1c257d3179b839c549ff12 t/release-test-version.t
+SHA1 d7221447937ab93002a123801def7be09748c106 t/release-unused-vars.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iQIcBAEBAgAGBQJOBANMAAoJEMZvtcdxyp88n5MP/iakf6eLkBZZ4dew2xlfiNfl
++j5Nth0E6PPNJDB4Z/R59XZYYyG7vq+lKg9lLWmyW7lo+GhEGBFRYA5ytPzWzfvF
+K5fxcJz67RsQ8LtS/ZtIgJRFXdZaxtS1nICf/uBtHQnxeBWhPJAHTZet3kPFnkfv
+tqrBL05gE3I5K0gAlPP9yIQyqZc3sDwrLIJSVDTPicSpLM4XTLGddn9sSozt8IvT
+zvPBzId2fKcmyjN8HmRIe6njBgJPTn95z7JrwYLCw/mOzQ6KC11P0BYO7XNk3bKx
+8fmtkkfyF/W1LXZSANso9bK4Xx7bIFekZGI5921xMbp4n7+gTKtdhD/uFsQNviFm
+Z+zXarknU/9VIyWk5BjC0Pgd0+tGYnRyCP5VpA2y0wdl9o3TioGuawaDi4n+hOe7
+aTOdR14HAbg4dSLSiD8VOZZHkHSYujhRurBP4ASj0N7La6hvyFji8OLrt7mZvwuA
+4UYp/e0BBQqnQx+9Rjd0GMFTd/4Y5AvZOMzo8GHxlG7mX8KZ0UNkeXMWE1yE3mAV
+WcuV2SQzh59x2Qopgv3gLB4z16t+FKqTk9DJYgdjerjCJ9OkZQq54lAikPnnKl+F
+7ND7fKodcwhDNfPyZKb4IFTleFbiEmYeOa6McQ1vi1/IeVXIiVBDI+IvpGt9gDWZ
+HItNzmym0eDIZUP6H8R2
+=ZOL9
+-----END PGP SIGNATURE-----
