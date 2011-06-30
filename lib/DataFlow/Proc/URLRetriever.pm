@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: An URL-retriever processor
 
-our $VERSION = '1.111751'; # VERSION
+our $VERSION = '1.111810'; # VERSION
 
 use Moose;
 extends 'DataFlow::Proc';
@@ -31,23 +31,21 @@ has 'baseurl' => (
     'predicate' => 'has_baseurl',
 );
 
-has '+p' => (
-    'default' => sub {
-        my $self = shift;
+sub _build_p {
+    my $self = shift;
 
-        return sub {
-            my $url =
-              $self->has_baseurl
-              ? URI->new_abs( $_, $self->baseurl )->as_string
-              : $_;
+    return sub {
+        my $url =
+          $self->has_baseurl
+          ? URI->new_abs( $_, $self->baseurl )->as_string
+          : $_;
 
-            return $self->ua->get($url)->decoded_content;
+        return $self->ua->get($url)->decoded_content;
 
-            # TODO allow ArrayRef's instead of Str, and use the other elements
-            #      as parameters for the get() method
-        };
-    },
-);
+        # TODO allow ArrayRef's instead of Str, and use the other elements
+        #      as parameters for the get() method
+    };
+}
 
 __PACKAGE__->meta->make_immutable;
 
@@ -65,7 +63,7 @@ DataFlow::Proc::URLRetriever - An URL-retriever processor
 
 =head1 VERSION
 
-version 1.111751
+version 1.111810
 
 =for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
 
