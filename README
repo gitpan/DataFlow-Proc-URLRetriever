@@ -2,7 +2,7 @@ NAME
     DataFlow::Proc::URLRetriever - An URL-retriever processor
 
 VERSION
-    version 1.111810
+    version 1.112100
 
 SUPPORT
   Perldoc
@@ -92,9 +92,9 @@ SUPPORT
     contribute patches, please send me a diff or prod me to pull from your
     repository :)
 
-    <http://github.com/russoz/DataFlow-Proc-URLRetriever>
+    <https://github.com/russoz/DataFlow-Proc-URLRetriever>
 
-      git clone http://github.com/russoz/DataFlow-Proc-URLRetriever
+      git clone https://github.com/russoz/DataFlow-Proc-URLRetriever
 
 AUTHOR
     Alexei Znamensky <russoz@cpan.org>

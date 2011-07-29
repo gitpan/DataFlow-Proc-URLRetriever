@@ -27,12 +27,13 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'DataFlow::Proc::URLRetriever',
   'PREREQ_PM' => {
+    'DataFlow' => '1.112100',
     'DataFlow::Proc' => '0',
     'LWP::UserAgent' => '0',
     'Moose' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111810',
+  'VERSION' => '1.112100',
   'test' => {
     'TESTS' => 't/*.t'
   }
