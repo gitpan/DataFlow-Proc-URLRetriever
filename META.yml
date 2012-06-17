@@ -3,16 +3,14 @@ abstract: 'An URL-retriever processor'
 author:
   - 'Alexei Znamensky <russoz@cpan.org>'
 build_requires:
-  English: 0
   File::Find: 0
   File::Temp: 0
   Test::More: 0.88
   Test::UseAllModules: 0
-  perl: 5.006
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001'
+generated_by: 'Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -23,8 +21,11 @@ requires:
   DataFlow::Proc: 0
   LWP::UserAgent: 0
   Moose: 0
+  URI: 0
   namespace::autoclean: 0
+  strict: 0
+  warnings: 0
 resources:
   homepage: https://github.com/russoz/DataFlow-Proc-URLRetriever
-  repository: https://github.com/russoz/DataFlow-Proc-URLRetriever
-version: 1.112100
+  repository: https://github.com/russoz/DataFlow-Proc-URLRetriever.git
+version: 1.121690

@@ -1,8 +1,16 @@
 Revision History for DataFlow-Proc-URLRetriever
 ===============================================
 
-1.112100
---------
+v1.121690 2012-06-16
+--------------------
+
+commit b36feac9250d45e9f3b84e48e907cae224fb539c
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    added URI usage to the module
+
+v1.112100 2011-07-28
+--------------------
 
 commit 2f52cad61eca3b4796b88ffbda6b3dcaf126aa31
 Author: Alexei Znamensky <russoz@cpan.org>

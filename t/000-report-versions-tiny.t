@@ -12,7 +12,7 @@ my $v = "\n";
 
 eval {                     # no excuses!
     # report our Perl details
-    my $want = '5.006';
+    my $want = "any version";
     my $pv = ($^V || $]);
     $v .= "perl: $pv (wanted $want) on $^O from $^X\n\n";
 };
@@ -50,7 +50,6 @@ sub pmver {
 
 eval { $v .= pmver('DataFlow','1.112100') };
 eval { $v .= pmver('DataFlow::Proc','any version') };
-eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
@@ -58,7 +57,10 @@ eval { $v .= pmver('LWP::UserAgent','any version') };
 eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('Test::More','0.88') };
 eval { $v .= pmver('Test::UseAllModules','any version') };
+eval { $v .= pmver('URI','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
+eval { $v .= pmver('strict','any version') };
+eval { $v .= pmver('warnings','any version') };
 
 
 

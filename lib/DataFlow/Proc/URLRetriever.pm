@@ -5,13 +5,14 @@ use warnings;
 
 # ABSTRACT: An URL-retriever processor
 
-our $VERSION = '1.112100';    # VERSION
+our $VERSION = '1.121690';    # VERSION
 
 use Moose;
 extends 'DataFlow::Proc';
 
 use namespace::autoclean;
 use LWP::UserAgent;
+use URI;
 
 has 'ua' => (
     'is'      => 'ro',
@@ -62,9 +63,9 @@ DataFlow::Proc::URLRetriever - An URL-retriever processor
 
 =head1 VERSION
 
-version 1.112100
+version 1.121690
 
-=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders
+=for :stopwords cpan testmatrix url annocpan anno bugtracker rt cpants kwalitee diff irc mailto metadata placeholders metacpan
 
 =head1 SUPPORT
 
@@ -93,7 +94,7 @@ L<http://search.cpan.org/dist/DataFlow-Proc-URLRetriever>
 
 AnnoCPAN
 
-The AnnoCPAN is a website that allows community annonations of Perl module documentation.
+The AnnoCPAN is a website that allows community annotations of Perl module documentation.
 
 L<http://annocpan.org/dist/DataFlow-Proc-URLRetriever>
 
@@ -133,7 +134,7 @@ L<http://www.cpantesters.org/distro/D/DataFlow-Proc-URLRetriever>
 
 CPAN Testers Matrix
 
-The CPAN Testers Matrix is a website that provides a visual way to determine what Perls/platforms PASSed for a distribution.
+The CPAN Testers Matrix is a website that provides a visual overview of the test results for a distribution on various Perls/platforms.
 
 L<http://matrix.cpantesters.org/?dist=DataFlow-Proc-URLRetriever>
 
@@ -174,7 +175,7 @@ from your repository :)
 
 L<https://github.com/russoz/DataFlow-Proc-URLRetriever>
 
-  git clone https://github.com/russoz/DataFlow-Proc-URLRetriever
+  git clone https://github.com/russoz/DataFlow-Proc-URLRetriever.git
 
 =head1 AUTHOR
 
@@ -189,10 +190,8 @@ the same terms as the Perl 5 programming language system itself.
 
 =head1 BUGS AND LIMITATIONS
 
-No bugs have been reported.
-
-Please report any bugs or feature requests through the web interface at
-L<http://rt.cpan.org>.
+You can make new bug reports, and view existing ones, through the
+web interface at L<http://rt.cpan.org>.
 
 =head1 DISCLAIMER OF WARRANTY
 

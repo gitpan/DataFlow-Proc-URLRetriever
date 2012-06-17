@@ -4,7 +4,7 @@
       "Alexei Znamensky <russoz@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001",
+   "generated_by" : "Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -22,20 +22,21 @@
       "runtime" : {
          "requires" : {
             "DataFlow" : "1.112100",
-            "DataFlow::Proc" : 0,
-            "LWP::UserAgent" : 0,
-            "Moose" : 0,
-            "namespace::autoclean" : 0
+            "DataFlow::Proc" : "0",
+            "LWP::UserAgent" : "0",
+            "Moose" : "0",
+            "URI" : "0",
+            "namespace::autoclean" : "0",
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "English" : 0,
-            "File::Find" : 0,
-            "File::Temp" : 0,
+            "File::Find" : "0",
+            "File::Temp" : "0",
             "Test::More" : "0.88",
-            "Test::UseAllModules" : 0,
-            "perl" : "5.006"
+            "Test::UseAllModules" : "0"
          }
       }
    },
@@ -45,10 +46,10 @@
       "homepage" : "https://github.com/russoz/DataFlow-Proc-URLRetriever",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/russoz/DataFlow-Proc-URLRetriever",
+         "url" : "https://github.com/russoz/DataFlow-Proc-URLRetriever.git",
          "web" : "https://github.com/russoz/DataFlow-Proc-URLRetriever"
       }
    },
-   "version" : "1.112100"
+   "version" : "1.121690"
 }
 
